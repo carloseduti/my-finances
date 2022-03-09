@@ -1,0 +1,9 @@
+com\dev\myfinances\rest\BillRestService.class
+com\dev\myfinances\controller\BillController.class
+com\dev\myfinances\MyFinancesApplication.class
+com\dev\myfinances\model\Bill.class
+com\dev\myfinances\model\BillType.class
+com\dev\myfinances\config\SwaggerConfig.class
+com\dev\myfinances\service\BillService.class
+com\dev\myfinances\rest\constants\ApiRestConstants.class
+com\dev\myfinances\repository\BillRepository.class
