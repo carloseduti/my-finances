@@ -1,9 +1,0 @@
-D:\projects\my-finances\src\main\java\com\dev\myfinances\MyFinancesApplication.java
-D:\projects\my-finances\src\main\java\com\dev\myfinances\config\SwaggerConfig.java
-D:\projects\my-finances\src\main\java\com\dev\myfinances\model\Bill.java
-D:\projects\my-finances\src\main\java\com\dev\myfinances\repository\BillRepository.java
-D:\projects\my-finances\src\main\java\com\dev\myfinances\controller\BillController.java
-D:\projects\my-finances\src\main\java\com\dev\myfinances\rest\BillRestService.java
-D:\projects\my-finances\src\main\java\com\dev\myfinances\rest\constants\ApiRestConstants.java
-D:\projects\my-finances\src\main\java\com\dev\myfinances\service\BillService.java
-D:\projects\my-finances\src\main\java\com\dev\myfinances\model\BillType.java
