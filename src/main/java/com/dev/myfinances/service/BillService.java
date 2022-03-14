@@ -33,4 +33,6 @@ public class BillService {
         return billRepository.save(bill);
     }
 
+    public void deleteBillById(Integer id) { billRepository.deleteById(id);}
+
 }

@@ -24,13 +24,17 @@ public interface BillRestService {
     @ApiOperation(value = "responsible role get a bill.")
     Bill getBillById(@PathVariable(value = "id") Integer id);
 
-    @GetMapping(value = "/all-bills")
+    @GetMapping(value = "/all")
     @ApiOperation(value = "responsible role get a bill.")
     List<Bill> getListBill();
 
     @DeleteMapping
     @ApiOperation(value = "role responsible for delete a bill.")
     void deleteBill(@RequestBody Bill bill);
+
+    @DeleteMapping(value = "/{id}")
+    @ApiOperation(value = "responsible role get a bill.")
+    void deleteBillById(@PathVariable(value = "id") Integer id);
 
     @PutMapping
     @ApiOperation(value = "role responsible for update a bill.")
