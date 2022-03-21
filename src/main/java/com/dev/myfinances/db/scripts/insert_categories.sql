@@ -1,0 +1,10 @@
+insert into category values (1,'1','Bills related with leisure.','Leisure');
+insert into category values (2,'2','Bills related with Internet.','Internet');
+insert into category values (3,'3','Bills related with Gifts.','Gifts');
+insert into category values (4,'4','Bills related with Cars.','Car');
+insert into category values (5,'5','Courses, Undergraduate, Postgraduate.','Study');
+insert into category values (6,'6','Expenses related to accounting, company','Accountancy');
+insert into category values (7,'7','Expenses related to Credit Car','Credit Car');
+insert into category values (8 ,'8','Gym, food suplements etc..','Gym');
+insert into category values (9 ,'9','Hospital, Clinic, Consultations, dentist and general health.','Health');
+insert into category values (10 ,'10','Others things','Others');

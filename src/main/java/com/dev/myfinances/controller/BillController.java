@@ -35,6 +35,11 @@ public class BillController implements BillRestService {
     }
 
     @Override
+    public void deleteBillById(Integer id) {
+        billService.deleteBillById(id);
+    }
+
+    @Override
     public Bill updateBill(Bill bill) {
         return billService.updateBill(bill);
     }
