@@ -25,8 +25,8 @@ public class BillController implements BillRestService {
     }
 
     @Override
-    public List<Bill> getListBill() {
-        return billService.getListBill();
+    public List<Bill> getListBill(String uuid) {
+        return billService.getListBill(uuid);
     }
 
     @Override

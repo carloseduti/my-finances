@@ -21,8 +21,8 @@ public class BillService {
         return billRepository.getById(id);
     }
 
-    public List<Bill> getListBill() {
-        return billRepository.findAll();
+    public List<Bill> getListBill(String uuid) {
+        return billRepository.findBillByUuid(uuid);
     }
 
     public void deleteBill(Bill bill) {
@@ -33,6 +33,8 @@ public class BillService {
         return billRepository.save(bill);
     }
 
-    public void deleteBillById(Integer id) { billRepository.deleteById(id);}
+    public void deleteBillById(Integer id) {
+        billRepository.deleteById(id);
+    }
 
 }

@@ -24,9 +24,9 @@ public interface BillRestService {
     @ApiOperation(value = "responsible role get a bill.")
     Bill getBillById(@PathVariable(value = "id") Integer id);
 
-    @GetMapping(value = "/all")
+    @GetMapping(value = "/all/{uui}")
     @ApiOperation(value = "responsible role get a bill.")
-    List<Bill> getListBill();
+    List<Bill> getListBill(@PathVariable(value = "uui") String id);
 
     @DeleteMapping
     @ApiOperation(value = "role responsible for delete a bill.")

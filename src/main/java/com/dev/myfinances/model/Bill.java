@@ -20,8 +20,8 @@ public class Bill {
     @Column(name = "Id", unique = true, nullable = false)
     private Integer id;
 
-    @Column(name = "Id_User")
-    private Integer idUser;
+    @Column(name = "Uuid", nullable = false)
+    private String uuid;
 
     @Column(name = "Name")
     private String name;
